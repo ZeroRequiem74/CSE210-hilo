@@ -4,5 +4,6 @@
     {
         Player player = new Player();
         Game game = new Game();
+        int points = 0;
     }
 }
