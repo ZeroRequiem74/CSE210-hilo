@@ -10,7 +10,7 @@ class Player
     public string PlayerChoice()
     {
         Console.Write("Higher or lower? [h/l] ");
-        string? choice = Console.ReadLine();
+        string choice = Console.ReadLine() ?? "";
         return choice;
     }
 }
