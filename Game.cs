@@ -17,8 +17,9 @@ class Game
         }while(DrawTwo == DrawOne);
         return DrawTwo;
     }
-    public int IsHigher(int DrawOne, int DrawTwo, string guess, int points)
+    public int IsHigher(int DrawOne, int DrawTwo, string guess)
     {
+        int points = 0;
         if(guess == "l")
         {
             if(DrawOne > DrawTwo)
@@ -48,7 +49,7 @@ class Game
     public bool IsGameOver(int LifePoints)
     {
         bool End = false;
-        if (LifePoints == 0)
+        if (LifePoints <= 0)
         {
             End = true;
         }
