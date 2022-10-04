@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class hilo
+{
+    static void Main(string[] args)
+    {
+        Player player = new Player();
+        Game game = new Game();
+    }
+}
