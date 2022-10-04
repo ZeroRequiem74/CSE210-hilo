@@ -1,4 +1,4 @@
-﻿class hilo
+﻿class HiLo
 {
     static void Main(string[] args)
     {
