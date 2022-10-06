@@ -10,7 +10,7 @@
             int DrawOne = game.FirstCard();
             string PlayerChoice = player.PlayerChoice();
             int DrawTwo = game.SecondDraw(DrawOne);
-            points += game.IsHigher(DrawOne, DrawTwo, PlayerChoice, points);
+            points += game.IsHigher(DrawOne, DrawTwo, PlayerChoice);
 
         }while(!IsGameOver(game, player, points));
     }

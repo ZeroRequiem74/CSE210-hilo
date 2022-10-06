@@ -19,8 +19,9 @@ class Game
         Console.WriteLine($"Next card was: {DrawTwo}");
         return DrawTwo;
     }
-    public int IsHigher(int DrawOne, int DrawTwo, string guess, int points)
+    public int IsHigher(int DrawOne, int DrawTwo, string guess)
     {
+        int points = 0;
         if(guess == "l")
         {
             if(DrawOne > DrawTwo)
