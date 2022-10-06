@@ -4,6 +4,7 @@ class Game
     {
         Random rnd = new Random();
         int DrawOne = rnd.Next(1, 14);
+        Console.WriteLine($"The card is: {DrawOne}");
         return DrawOne;
     }
 
@@ -15,6 +16,7 @@ class Game
             Random rnd = new Random();
             DrawTwo = rnd.Next(1,14);
         }while(DrawTwo == DrawOne);
+        Console.WriteLine($"Next card was: {DrawTwo}");
         return DrawTwo;
     }
     public int IsHigher(int DrawOne, int DrawTwo, string guess, int points)

@@ -4,7 +4,7 @@ class Player
     {
         int LifePoints = 300;
         LifePoints = LifePoints + points;
-
+        Console.WriteLine($"Your score is: {LifePoints}");
         return LifePoints;
     }
     public string PlayerChoice()
