@@ -1,14 +1,14 @@
-class Game
+class Game // Our Gmae class
 {
-    public int FirstCard()
+    public int FirstCard() // Function for the First card Drawn
     {
         Random rnd = new Random();
-        int DrawOne = rnd.Next(1, 14);
+        int DrawOne = rnd.Next(1, 14);// Card will be selected at random from 1 - 13
         Console.WriteLine($"The card is: {DrawOne}");
-        return DrawOne;
+        return DrawOne;//Vaue  card drawn in first choice is returned 
     }
 
-    public int SecondDraw(int DrawOne)
+    public int SecondDraw(int DrawOne)// Second crad is drawn here
     {
         int DrawTwo = 0;
         do
@@ -57,9 +57,9 @@ class Game
         }
         else
         {
-            Console.Write("Play Again? [y/n] ");
+            Console.Write("Play Again? [y/n] ");// write this on the terminal
             string? choice = Console.ReadLine();
-            if(choice == "y")
+            if(choice == "y")// if player chooses y , execute the bock below if not enter the ese block
             {
                 End = false;
             }
