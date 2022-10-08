@@ -1,9 +1,9 @@
-﻿class HiLo // creates the Game class
+﻿class HiLo // creates the Hilo class
 {
     static void Main(string[] args) // main function of the Game
     {
         Player player = new Player();
-        Game game = new Game();
+        Game game = new Game();// call the  Game function
         int points = 0;// initialize the points to zero at first
         do
         {
@@ -15,7 +15,7 @@
         }while(!IsGameOver(game, player, points));
     }
 
-    static bool IsGameOver(Game game, Player player, int points)// checks Lifepoints to continue or end game
+    static bool IsGameOver(Game game, Player player, int points)// checks Life points to continue or end game
     {
         if(game.IsGameOver(player.PlayerLifePoints(points)))
         {
