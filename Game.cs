@@ -1,14 +1,14 @@
-class Game // Our Gmae class
+class Game // Our Game class
 {
     public int FirstCard() // Function for the First card Drawn
     {
         Random rnd = new Random();
         int DrawOne = rnd.Next(1, 14);// Card will be selected at random from 1 - 13
         Console.WriteLine($"The card is: {DrawOne}");
-        return DrawOne;//Vaue  card drawn in first choice is returned 
+        return DrawOne;//Value  card drawn in first choice is returned 
     }
 
-    public int SecondDraw(int DrawOne)// Second crad is drawn here
+    public int SecondDraw(int DrawOne)// Second card is drawn here
     {
         int DrawTwo = 0;
         do
@@ -24,13 +24,13 @@ class Game // Our Gmae class
         int points = 0;
         if(guess == "l")
         {
-            if(DrawOne > DrawTwo)
+            if(DrawOne > DrawTwo)// compare the first and second card
             {
-                points += 100;
+                points += 100;// if first card is greater the  second card add  100 point to player 
             }
             else
             {
-                points += -75;
+                points += -75;// if the above is fas subtract 75 points 
             }
         }
         else if(guess == "h")
