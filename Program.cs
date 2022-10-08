@@ -1,4 +1,4 @@
-﻿class HiLo
+﻿class HiLo // creates the Game class
 {
     static void Main(string[] args)
     {
