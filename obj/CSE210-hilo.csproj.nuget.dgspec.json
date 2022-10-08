@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeror\\Git\\CSE210-hilo\\CSE210-hilo.csproj": {}
+    "C:\\Users\\strob\\Gitty\\CSE210-hilo\\HILO\\CSE210-hilo\\CSE210-hilo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeror\\Git\\CSE210-hilo\\CSE210-hilo.csproj": {
+    "C:\\Users\\strob\\Gitty\\CSE210-hilo\\HILO\\CSE210-hilo\\CSE210-hilo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeror\\Git\\CSE210-hilo\\CSE210-hilo.csproj",
+        "projectUniqueName": "C:\\Users\\strob\\Gitty\\CSE210-hilo\\HILO\\CSE210-hilo\\CSE210-hilo.csproj",
         "projectName": "CSE210-hilo",
-        "projectPath": "C:\\Users\\zeror\\Git\\CSE210-hilo\\CSE210-hilo.csproj",
-        "packagesPath": "C:\\Users\\zeror\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeror\\Git\\CSE210-hilo\\obj\\",
+        "projectPath": "C:\\Users\\strob\\Gitty\\CSE210-hilo\\HILO\\CSE210-hilo\\CSE210-hilo.csproj",
+        "packagesPath": "C:\\Users\\strob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strob\\Gitty\\CSE210-hilo\\HILO\\CSE210-hilo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zeror\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\strob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
