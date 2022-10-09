@@ -5,10 +5,10 @@
         Player player = new Player();
         Game game = new Game();// call the  Game function
         int points = 0;// initialize the points to zero at first
-        do
+        do// do these while in the main function.
         {
-            int DrawOne = game.FirstCard();// checks the card drawn
-            string PlayerChoice = player.PlayerChoice();
+            int DrawOne = game.FirstCard();// from game class ca the first card function
+            string PlayerChoice = player.PlayerChoice();//from player cass call the payer choice and returned vaue in Player choice
             int DrawTwo = game.SecondDraw(DrawOne);
             points += game.IsHigher(DrawOne, DrawTwo, PlayerChoice);
 
